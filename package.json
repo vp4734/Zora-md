@@ -31,7 +31,7 @@
     "mongoose": "8.5.3",
     "discord-xp": "^1.1.16",
     "wa-sticker-formatter": "^4.3.2",
-    "sharp": "^0.32.6",
+    "sharp": "^0.34.2",
     "cheerio": "^1.0.0-rc.12",
     "puppeteer-core": "latest",
     "vercel": "^43.3.0",
