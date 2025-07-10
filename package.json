@@ -4,12 +4,12 @@
   "description": "ZORA-XMD simple whatsapp bot is developed using javaScript <",
   "main": "start.js",
   "scripts": {
-    "start": "pm2 start start.js --node-args='--expose-gc --max-old-space-size=32768' --deep-monitoring --attach --name zora-x",
-    "stop": "pm2 stop zora-x",
-    "restart": "pm2 restart zora-x"
+    "start": "pm2 start start.js --node-args='--expose-gc' --deep-monitoring --attach --name ZORA-XMD",
+    "stop": "pm2 stop ZORA-XMD",
+    "restart": "pm2 restart ZORA-XMD"
   },
   "dependencies": {
-    "baileys": "github:WhiskeySockets/Baileys",
+    "baileys": "git+https://gitlab.com/charithZz04/baileys-x.git",
     "@adiwajshing/keyed-db": "^0.2.4",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
@@ -31,7 +31,7 @@
     "mongoose": "8.5.3",
     "discord-xp": "^1.1.16",
     "wa-sticker-formatter": "^4.3.2",
-    "sharp": "^0.34.2",
+    "sharp": "^0.32.6",
     "cheerio": "^1.0.0-rc.12",
     "puppeteer-core": "latest",
     "vercel": "^43.3.0",
@@ -46,14 +46,16 @@
     "qrcode": "^1.5.1",
     "cloudinary": "^1.40.0",
     "streamifier": "^0.1.1",
-    "jimp": "^1.6.0",
+    "jimp": "^0.16.1",
     "canvafy": "^7.2.1",
     "string-similarity": "^4.0.4",
     "google-tts-api": "^2.0.2",
     "franc": "^6.1.0",
     "tough-cookie": "latest",
     "axios-cookiejar-support": "latest",
-    "capture-website": "latest"
+    "capture-website": "latest",
+    "webtorrent": "1.9.7",
+    "javascript-obfuscator": "latest"
   },
   "engines": {
     "node": ">=20.0.0"
