@@ -1,9 +1,9 @@
 {
   "bot-name": "BYTE-MD",
   "description": "BYTE-MD made for people on Earth",
-  "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/XByte-logo.png",
+  "logo": "https://res.cloudinary.com/df2rnoijw/image/upload/v1753183328/qviftrwqzprbk2ghur6s.jpg",
   "keywords": ["bot"],
-  "documentation-link": "https://session.talkdrove.com",
+  "documentation-link": "https://zora-pair-web.onrender.com/",
   "owner-verification": "ranusuta8@gmail.com",
   "env": {
     "SESSION_ID": {
